@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 3;
+    margin-left: 20px;
+}
+.sidebar-title{
+    color: var(--primary-color);
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+.sidebar-links{
+    padding: 10px;
+}
+.sidebar-link{
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--primary-color);
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    text-transform: capitalize;
+    display: block;
+}
+.sidebar-link:hover{
+    background-color: var(--pumpkin-color);
+    color: var(--white-color);
+}
+
+/* Media query */
+@media (max-width: 990px) {
+    .sidebar{
+        margin-left: 0;
+        width: 100%;
+    }
+}
